@@ -12,7 +12,7 @@ const Member: React.FC<Props> = ({ id, name, color}) => (
         <div className="rounded-full overflow-hidden">
             <Image src={`/pfp/${id}.png`} alt={name} width={1000} height={1000}/>
         </div>
-        <div className={`text-2xl xl:text-3xl text-${color}`}>{name}</div>
+        <div className={`text-2xl xl:text-3xl ${color}`}>{name}</div>
     </div>
 )
 
