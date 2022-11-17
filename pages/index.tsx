@@ -4,6 +4,7 @@ import Masthead from '../components/masthead'
 import AboutUs from '../components/aboutus'
 import Skills from '../components/skills'
 import Works from '../components/works'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -19,16 +20,7 @@ export default function Home() {
       <Skills />
       <Works />
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          Cope
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }
