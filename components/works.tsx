@@ -4,6 +4,7 @@ import { Tile, TileBackground, TileContent, TileWrapper } from './tile'
 import { WorkBackground, WorkContainer, WorkLeft, WorkRight } from './work'
 
 const Works = () => (
+    //@tsignore
     <TileWrapper numOfPages={3}>
         <TileBackground>
             <WorkBackground />

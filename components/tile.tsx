@@ -16,6 +16,7 @@ export const TileContext = React.createContext<TileContextValue>({
 })
 
 export const TileWrapper: React.FC<WrapperProps> = ({
+    //@tsignore
     children,
     numOfPages
 }) => {
